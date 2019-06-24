@@ -1,5 +1,7 @@
 # MH_on_HC
-Metropolis-Hastings MH algorithm to simulate the Ising model for brain connectome. This algorithm finds the critical temperature of the Human Connectome or any other network by inserting the connectivity matrix J.
+Metropolis-Hastings MH algorithm to simulate the Ising model for brain connectome. 
+
+This algorithm finds the critical temperature of the Human Connectome or any other network by inserting the connectivity matrix J.
 
 ## Prerequisites
 This program requires a fast computer due to the iteration inside each Monte Carlo step.
