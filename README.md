@@ -7,10 +7,10 @@ This algorithm finds the critical temperature of the Human Connectome or any oth
 This program requires a fast computer due to the iteration inside each Monte Carlo step.
 
 ## Description
-To execute the algorithm, open [main.m](main.m). It contains three [functions](fucntions/):
-* [N_critical_T.m](fucntions/N_critical_T.m): This function find numerically an estimated value of the critical temperature (TC) in order to define a range of temperature for the algorithm.
-* [one_metropolis_step.m](fucntions/one_metropolis_step.m): This function correspond to one Metropolis step for flipping N spins selected randomly.
-* [visualization.m](fucntions/visualization.m): This function is optional, it just visualizes the curve of Susceptibility vs Temperature.
+To execute the algorithm, open [main.m](main.m). It contains three [functions](functions/):
+* [N_critical_T.m](functions/N_critical_T.m): This function find numerically an estimated value of the critical temperature (TC) in order to define a range of temperature for the algorithm.
+* [one_metropolis_step.m](functions/one_metropolis_step.m): This function correspond to one Metropolis step for flipping N spins selected randomly.
+* [visualization.m](functions/visualization.m): This function is optional, it just visualizes the curve of Susceptibility vs Temperature.
   
 ## Usage
 Enter the next statement in Command Window of Matlab:
